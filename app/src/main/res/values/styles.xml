@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="android:buttonStyleToggle">@style/Widget.AppCompat.CompoundButton.Switch</item>
+    </style>
+
+    <!-- Action Bar Styles -->
+    <style name="AppTheme.ActionBar" parent="@style/Theme.AppCompat">
+        <item name="android:colorBackground">#252525</item>
+        <item name="android:titleTextStyle">@style/AppTheme.ActionBar.TitleColor</item>
+        <item name="titleTextStyle">@style/AppTheme.ActionBar.TitleColor</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleColor" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">5sp</item>
+    </style>
+
+
+    <style name="SwitchText">
+        <item name="android:paddingLeft">8px</item>
+        <item name="android:paddingBottom">8px</item>
+        <item name="android:textColor">#FFeeFFee</item>
+        <item name="android:textSize">24dip</item>
+        <item name="android:shadowColor">#BB000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+
+
+
+    <style name="mySwitchStyle">
+        <item name="newtrack">@drawable/switch_track</item>
+        <item name="thumb">@drawable/thumb</item>
+        <item name="switchTextAppearanceAttrib">@style/mySwitchTextAppearance</item>
+        <item name="textOn"></item>
+        <item name="textOff"></item>
+        <item name="pushStyle">false</item>
+        <item name="textOnThumb">false</item>
+        <item name="thumbExtraMovement">0dp</item>
+        <item name="thumbTextPadding">0dp</item>
+        <item name="trackTextPadding">0dp</item>
+        <item name="newswitchMinWidth">69dp</item>
+        <item name="switchMinHeight">36dp</item>
+        <item name="newswitchPadding">6dp</item>
+    </style>
+
+    <style name="mySwitchTextAppearance">
+        <item name="textColor">#FFeeFFee</item>
+        <item name="textColorHighlight">#FFeeFFee</item>
+        <item name="textColorHint">#FFeeFFee</item>
+        <item name="textColorLink">#FFeeFFee</item>
+        <item name="textSize">16sp</item>
+        <item name="textStyle">normal</item>
+    </style>
+
+</resources>
